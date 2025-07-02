@@ -97,15 +97,18 @@
                         <button class="close-btn" onclick="toggleCart_downbar()" title="close" >✖</button>
 
                         <h1>Book Store Cart <i class="bi bi-cart"></i></h1>
-
+                        
+<div class="cart-container-items">
+  
  <div class="cart-items" id="cart">
         <!-- Cart items will be dynamically added here -->
         <p id="empty-cart-message">Your cart is Empty!</p>
-       
+        <h4 id="cartEmpty"></h4>
          <div id="output">
 
          </div>
     </div>
+</div>
 
 
                        <p id="totalPrice">Total: ₹ 0.00</p> 
@@ -412,9 +415,9 @@ function addProductToCart(product, fromStorage = false) {
         <p class="quantity-number">Qty : <span class="quantity-display">${quantityToAdd}</span></p>
 
         <div class="cart-quantity-controls">
-            <button class="decrement"><i class="fa-solid fa-arrow-down"></i></button>
+            <button class="decrement"><i class="bi bi-dash-circle-fill"></i></button>
             <span class="cart-quantity">${quantityToAdd}</span>
-            <button class="increment"><i class="fa-solid fa-arrow-up"></i></button>
+            <button class="increment"><i class="bi bi-plus-circle-fill"></i></button>
         </div>
 
         <p class="cart-price">${(parseFloat(product.price) * quantityToAdd).toFixed(2)}</p>
