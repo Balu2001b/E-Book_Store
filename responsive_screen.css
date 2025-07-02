@@ -14,9 +14,9 @@
     }
     .navbar h1{
        
-        margin-left: -115px;
+        margin-left: -135px;
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .home{
 
@@ -109,6 +109,22 @@
   font-weight: 500;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: red;
+}
+
+
+
+.cart-downbar{
+
+   width: 330px;
+   height: 300px;
+    left: 10px;
+
+
+}
+
+#empty-cart-message{
+
+    margin-top: 120px;
 }
 
 
