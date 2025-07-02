@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+    
+
+
+    .container{
+
+        width: auto;
+        margin: 0 auto;
+    }
+    .navbar img{
+
+        left: 10px;
+
+    }
+    .navbar h1{
+       
+        margin-left: -115px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .home{
+
+        display: none;
+    }
+    
+        .navbar ul li button{
+
+        margin-right: -40px;
+        font-size: 12px;
+        }
+
+        .cart-value{
+
+            right: 70px;
+        }
+
+        .hamburger{
+            right: 15px;
+        }
+
+        .sidebar{
+
+            width: 200px;
+        }
+                    
+            .listProduct{
+
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-bottom: 100px;
+            margin-left: 10px;
+            
+            }
+
+            
+.listProduct .item{
+
+   border: 1px solid black;
+  height: auto;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  
+
+
+}
+
+.listProduct a{
+
+  text-decoration: none;
+}
+
+.content p{
+
+  text-align: center;
+  margin-top: 90px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listProduct img{
+
+  height: 140px;
+  width: 100px;
+  border-radius: 10px;
+ 
+
+ 
+}
+
+.listProduct .item h2{
+
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0051b3;
+
+
+
+}
+
+.listProduct .item .price{
+
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+
+
+
+}

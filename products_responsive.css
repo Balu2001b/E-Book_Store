@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+
+
+
+    
+    .container{
+
+        width: 100%;
+        
+    }
+   
+    .navbar img{
+
+        left: 10px;
+
+    }
+    .navbar h1{
+       
+        margin-left: -115px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .home{
+
+        display: none;
+    }
+    
+        .navbar ul li button{
+
+        margin-right: -40px;
+        font-size: 12px;
+        }
+
+        .cart-value{
+
+            right: 70px;
+        }
+
+        .hamburger{
+            right: 15px;
+        }
+
+        .sidebar{
+
+            width: 200px;
+        }
+
+
+
+    
+.detail h1{
+
+    font-size: 16px;
+}
+
+.arrow{
+
+    left: 10px;
+    font-size: 22px;
+}
+
+.detail .image img{
+
+    width: 120px;
+    height: 140px;
+    margin-top: -40px;
+   margin-left: 30px;
+   
+}
+
+.detail .name{
+
+    left: 50px;
+    top: 290px;
+    font-size: 16px;
+    width: auto;
+
+    
+}
+
+.detail .price{
+    left: 150px;
+    top: 330px;
+    font-size: 13px;
+}
+
+.detail h2{
+
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 260px;
+}
+
+.detail .description{
+
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.button-section{
+
+    left: 100px;
+}
+
+.addCart button{
+
+    left: 40px;
+}
+}
