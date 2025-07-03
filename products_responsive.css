@@ -2,7 +2,15 @@
 
 
 
-    
+    html{
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+}
+
+
+
     .container{
 
         width: 100%;
