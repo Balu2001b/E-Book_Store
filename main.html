@@ -31,7 +31,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container" >
 
                             
 <!-- Scroll to Top Button -->
@@ -43,30 +43,22 @@
     <!-----------------------------------------Nav bar section here------------------------------------------>
 
 
-                <div class="navbar" data-aos="fade-down">
-                    <a href="" title="AB's Book store">
-                      <img src="./Book Logo.jpeg" alt="">
-                    <h1>Devotee's Book Store</h1>
-                    </a>
+                <div class="navbar" data-aos="fade-down" data-aos-duration="1000">
+  <img src="./Book Logo.jpeg" alt="">
+  <h1>Devotee's Book Store</h1>
 
+  <ul>
+    <li title="Home"><a href="" class="home">Home</a></li>
+    <li><button onclick="toggleCart_downbar()" title="Cart">Cart <i class="bi bi-cart"></i> </button></li>
+    <span class="cart-value" id="cart-value">0</span>
+  </ul>
 
-                    <ul>
-                      <li title="Home"><a href="" class="home">Home</a></li>
-                      <li><button onclick="toggleCart_downbar()" title="Cart">Cart <i class="bi bi-cart"></i> </button></li>
-                      <span class="cart-value" id="cart-value">0</span>
-                    
-                    </ul>
+  <!-----------------hamburger button ------------------------------------------------>
+  <div class="hamburger" onclick="toggleSidebar()">
+    <i class="bi bi-list"></i>
+  </div>
+</div>
 
-                  <!-----------------hamburger button ------------------------------------------------>
-
-
-                          <div class="hamburger" onclick="toggleSidebar()">
-                                    <i class="bi bi-list"></i>
-                          </div>
-                                          
-                          
-
-                </div>
 
 
                                                                           
@@ -97,18 +89,18 @@
                         <button class="close-btn" onclick="toggleCart_downbar()" title="close" ><i class="bi bi-x-circle-fill"></i></button>
 
                         <h1>Book Store Cart <i class="bi bi-cart"></i></h1>
-                        
-<div class="cart-container-items">
-  
- <div class="cart-items" id="cart">
-        <!-- Cart items will be dynamically added here -->
-        <p id="empty-cart-message">Your cart is Empty!</p>
-        <h4 id="cartEmpty"></h4>
-         <div id="output">
+                                                        
+                                <div class="cart-container-items">
+                                  
+                                <div class="cart-items" id="cart">
+                                        <!-- Cart items will be dynamically added here -->
+                                        <p id="empty-cart-message">Your cart is Empty!</p>
+                                        <h4 id="cartEmpty"></h4>
+                                        <div id="output">
 
-         </div>
-    </div>
-</div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
                        <p id="totalPrice">Total: ₹ 0.00</p> 
@@ -135,7 +127,7 @@
 <div class="content">
 
 
-            <p class="title-products" >BOOKS LIST</p>
+            <p class="title-products" data-aos="fade-right" >BOOKS LIST</p>
             <div class="listProduct" >
        
 
