@@ -39,6 +39,7 @@ html{
     height: 70px;
     width: 100%;
     background-color: #0073ff;
+    z-index: 999;
    
 }
 
@@ -295,6 +296,8 @@ html{
 
 
 
+
+
 .cart-downbar .close-btn{
 
     position: absolute;
@@ -349,7 +352,7 @@ html{
 
 .cart-value{
 
-  position: fixed;
+        position: fixed;
         background-color: red;
         width: 20px;
         height: 20px;
@@ -359,7 +362,7 @@ html{
         border-radius: 50%;
         border: none;
         color: #fff;
-        top: 50%;
+        top: 35px;
         right: 108px;
  
  
@@ -369,8 +372,6 @@ html{
 
 
 /*-----------------------------------products list styling section here-------------------------------------*/
-
-
 
 
 
@@ -385,13 +386,22 @@ html{
 
 .listProduct .item{
 
-   border: 1px solid black;
   height: 350px;
   width: 240px;
-  margin-top: 30px;
   border-radius: 10px;
+  transition: all .5s;
+  margin-top: 30px;
+  
+}
 
+.listProduct .item:hover{
 
+  border: 1px solid gray;
+  height: auto;
+  width: 240px;
+  border-radius: 10px;
+  transition: all .2s;
+  transform: scale(1.05);
 }
 
 .listProduct a{
@@ -522,6 +532,7 @@ html{
 
 /*------------------------------------button styling section here---------------------------------*/
 
+
 .button-section{
 
   position: absolute;
@@ -547,11 +558,12 @@ html{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 .addCart button{
 
   position: absolute;
   left: 600px;
-  
   margin-top: 40px;
   padding: 8px 120px;
   background-color: #0073ff;
