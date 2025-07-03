@@ -201,6 +201,11 @@
 
 }
 
+    .listProduct .item:hover{
+
+    display: none;
+}
+
 
 
 
