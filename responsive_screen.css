@@ -205,6 +205,10 @@
 
     transform: scale(1.05);
     transition: 0.2s;
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 
