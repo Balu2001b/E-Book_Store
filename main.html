@@ -31,6 +31,14 @@
 </head>
 <body>
 
+   <!----------------------------------Preloader Section Here--------------------------------->
+
+    <div id="preloader" class="preloader">
+        
+        <img src="./preloader-s-unscreen.gif" alt="">
+        <p id="loader-text1" class="loader-text1"></p>
+    </div>
+
 <div class="container" >
 
                             
@@ -106,7 +114,7 @@
                        <p id="totalPrice">Total: ₹ 0.00</p> 
 
 
-                        <button class="checkout-btn" title="checkout">Proceed to Checkout</button>
+                        <button class="checkout-btn" title="checkout" onclick="checkout()">Proceed to Checkout</button>
 
                       </div>
 
@@ -228,6 +236,27 @@
 
 
 
+
+<!------------------------------------Preloader Animation Script Section Here-------------------------------->
+
+
+<script>
+    var loader = document.getElementById('preloader');
+    var loader_text = document.getElementById('loader-text1')
+
+    window.addEventListener('load',function(){
+        loader_text.innerHTML='Please wait a moment...'
+        
+        setTimeout(function (){
+            loader.style.display = "none";
+            
+
+        },700);
+    }
+)
+</script>
+
+
 <!--------------------------------------- Hamburger side bar section here----------------------------------------->
 
 
@@ -257,6 +286,14 @@
 </script>
 
 
+
+<script>
+
+  function checkout() {
+    // Redirect to checkout page
+    window.location.href = "checkout.html";
+  }
+</script>
    
 <script>
 
