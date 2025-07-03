@@ -33,6 +33,17 @@
 <body>
 
 
+   <!----------------------------------Preloader Section Here--------------------------------->
+
+    <div id="preloader" class="preloader">
+        
+        <img src="./preloader-s-unscreen.gif" alt="">
+        <p id="loader-text1" class="loader-text1"></p>
+    </div>
+
+    
+
+
   <p id="toast_cart" class="toast_cart">Item added to cart!</p>
   <p id="toast-existProduct" class="toast-existProduct">Item already exists in cart!</p>
 
@@ -118,7 +129,7 @@
                        <p id="totalPrice">Total: ₹ 0.00</p> 
 
 
-                        <button class="checkout-btn" title="checkout">Proceed to Checkout</button>
+                        <button class="checkout-btn" title="checkout" onclick="checkout()">Proceed to Checkout</button>
 
                       </div>
 
@@ -274,6 +285,39 @@
     }
 </script>
 
+
+
+
+<!------------------------------------Preloader Animation Script Section Here-------------------------------->
+
+
+<script>
+    var loader = document.getElementById('preloader');
+    var loader_text = document.getElementById('loader-text1')
+
+    window.addEventListener('load',function(){
+        loader_text.innerHTML='Please wait a moment...'
+        
+        setTimeout(function (){
+            loader.style.display = "none";
+            
+
+        },700);
+    }
+)
+</script>
+
+
+
+
+
+<script>
+
+  function checkout(){
+
+    window.location.href = "checkout.html";
+  }
+</script>
 
 
     
