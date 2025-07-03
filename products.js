@@ -24,9 +24,9 @@ fetch('products.json')
             
 
             newProduct.innerHTML = `
-                <img src="${product.image}" alt="" >
-                <h2 >${product.name}</h2>
-                <div class="price">Rs.${product.price}</div>
+                <img src="${product.image}" alt="" data-aos="fade-up" >
+                <h2 data-aos="fade-left" data-aos-anchor-placement="top-bottom">${product.name}</h2>
+                <div class="price" data-aos="fade-right" data-aos-anchor-placement="top-bottom">Rs.${product.price}</div>
             
             `;      
         
