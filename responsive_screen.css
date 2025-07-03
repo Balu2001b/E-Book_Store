@@ -201,9 +201,10 @@
 
 }
 
-    .listProduct .item:hover{
+.listProduct .item:hover{
 
-    display: none;
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 
